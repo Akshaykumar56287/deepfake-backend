@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import numpy as np
 import cv2
 import io
+  # Suppress TensorFlow logging
 from PIL import Image
 from tensorflow.keras.models import load_model
 
